@@ -40,10 +40,9 @@
                             <goal>wget</goal>
                         </goals>
                         <configuration>
-                            <!-- TODO(lu) replace this with the actual client uber jar path -->
-                            <url>https://downloads.alluxio.io/downloads/files/${dep.alluxio.version}/alluxio-${dep.alluxio.version}-bin.tar.gz</url>
+                            <url>https://downloads.alluxio.io/downloads/files/${dep.alluxio.version}/alluxio-${dep.alluxio.version}-client.jar</url>
                             <outputFileName>alluxio-${dep.alluxio.version}-client.jar</outputFileName>
-                            <outputDirectory>${project.build.directory}/alluxio/</outputDirectory>
+                            <outputDirectory>${project.build.directory}/tmp/</outputDirectory>
                         </configuration>
                     </execution>
                 </executions>

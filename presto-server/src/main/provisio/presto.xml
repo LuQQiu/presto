@@ -69,7 +69,7 @@
     </artifactSet>
 
     <fileSet to="/plugin/hive-hadoop2">
-        <directory path="${basedir}/target/alluxio/" >
+        <directory path="${basedir}/target/tmp/" >
             <include>alluxio-*-client.jar</include>
         </directory>
     </fileSet>
